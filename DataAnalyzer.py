@@ -23,6 +23,6 @@ class DataAnalyzer:
         print(summary)
 
 if __name__ == "__main__":
-    analyzer = DataAnalyzer("data.csv")
+    analyzer = DataAnalyzer("tips.csv")
     analyzer.load_data()
     analyzer.summarize_numeric_variables()
